@@ -193,7 +193,7 @@
         <div class="form-group">
             <label class="col-sm-4 control-label" for="yandex_money_market_dynamic"><?php echo $market_lnk_yml; ?></label>
             <div class="col-sm-8">
-                <input type="text" name="yandex_money_market_dynamic" value="<?php echo $yandex_money_market_lnk_yml; ?>" id="yandex_money_market_dynamic" disabled="disabled" class="form-control"/>
+                <input type="text" name="yandex_money_market_dynamic" value="<?php echo $yandex_money_market_lnk_yml; ?>" id="yandex_money_market_dynamic" readonly class="form-control"/>
             </div>
         </div>
     </div>
