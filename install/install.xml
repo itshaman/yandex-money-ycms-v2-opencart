@@ -312,7 +312,7 @@
         </operation>
     </file>
 
-    <file path="catalog/view/theme/default/template/product/product.tpl" error="skip">
+    <file path="catalog/view/theme/*/template/product/product.tpl" error="skip">
         <operation>
             <search><![CDATA[<?php if ($options) { ?>]]></search>
             <add position="before"><![CDATA[

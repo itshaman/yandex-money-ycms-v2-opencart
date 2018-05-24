@@ -43,6 +43,17 @@ Y.CMS — это универсальный модуль для интеграц
 
 [Зарегистрировать магазин на Яндекс.Маркете](https://partner.market.yandex.ru/)
 
+### Для Установки в систему с не default темой оформления необходимо
+Создать каталог
+/catalog/view/theme/НАЗВАНИЕ ТЕМЫ/template/extension/payment
+Скопировать файлы 
+yandex_money/billing_form.tpl
+yandex_money/kassa_form.tpl
+yandex_money/wallet_form.tpl
+yandex_money_success_status.tpl
+yandex_money_failure_status.tpl 
+
+
 ### Контакты
 
 Если у вас есть вопросы или идеи для модуля, напишите нам: cms@yamoney.ru
